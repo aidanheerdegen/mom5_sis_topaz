@@ -33,7 +33,7 @@ model: mom
 # exe: mom51_sis_ompi184_debug_5kmethods
 # exe: mom51_sis_xgrid
 # exe: fms_MOM_SIS_matt.x
-exe: MOM5_SIS.debug
+exe: MOM5_SIS
 input:
     - MOM_SIS_TOPAZ/grids
     - MOM_SIS_TOPAZ/initial
