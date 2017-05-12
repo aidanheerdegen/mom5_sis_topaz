@@ -1,7 +1,7 @@
 "ATM" , "p_surf"        , "psl" , "./INPUT/slp.1996.30Jun2016.nc"       , .false. ,  1.0
 "ATM" , "p_bot"         , "psl" , "./INPUT/slp.1996.30Jun2016.nc"       , .false. ,  1.0
 "ATM" , "t_bot"         , "tas_10m"     , "./INPUT/t_10.1996.30Jun2016.nc"     , .false. ,  1.0
-"ATM" , "sphum_bot"     , "huss_10m"    , "./INPUT/u_10.1996.30Jun2016.nc"     , .false. ,  1.0
+"ATM" , "sphum_bot"     , "huss_10m"    , "./INPUT/q_10.1996.30Jun2016.nc"     , .false. ,  1.0
 "ATM" , "u_bot"         , "uas_10m"     , "./INPUT/u_10.1996.30Jun2016.nc"     , .false. ,  1.0
 "ATM" , "v_bot"         , "vas_10m"     , "./INPUT/v_10.1996.30Jun2016.nc"     , .false. ,  1.0
 "ATM" , "z_bot"         , ""            , ""                             , .false. , 10.0
