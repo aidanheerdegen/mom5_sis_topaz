@@ -668,3 +668,6 @@
         interp_method = 'second_order'
 /
 
+&data_override_nml
+ debug_data_override = .true.
+/
