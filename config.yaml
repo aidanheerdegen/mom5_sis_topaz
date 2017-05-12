@@ -37,5 +37,6 @@ exe: MOM5_SIS
 input:
     - MOM_SIS_TOPAZ/grids
     - MOM_SIS_TOPAZ/initial
+    - MOM_SIS_TOPAZ/INPUT
     - /g/data1/ua8/JRA55-do/v1-1/
 

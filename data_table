@@ -8,14 +8,14 @@
 "ATM" , "gust"          , ""            , ""                             , .false. ,  0.0
 # per MH: change gust to 1.0e-4
 "ATM" , "gust"          , ""            , ""                             , .false. ,  1.0e-4
-"ICE" , "lw_flux_dn"    , "rlds"        , "./INPUT/rlds.1996.nc"     , .false. ,  1.0
-"ICE" , "sw_flux_vis_dir_dn", "rsds"    , "./INPUT/rsds.1996.nc"     , .false. , 0.285
-"ICE" , "sw_flux_vis_dif_dn", "rsds"    , "./INPUT/rsds.1996.nc"     , .false. , 0.285
-"ICE" , "sw_flux_nir_dir_dn", "rsds"    , "./INPUT/rsds.1996.nc"     , .false. , 0.215
-"ICE" , "sw_flux_nir_dif_dn", "rsds"    , "./INPUT/rsds.1996.nc"     , .false. , 0.215
-"ICE" , "lprec"         , "prrn"        , "./INPUT/rain.1996.nc"     , .false. ,  0.9933
-"ICE" , "fprec"         , "prsn"        , "./INPUT/snow.1996.nc"     , .false. ,  0.9933
-"ICE" , "runoff"        , "runoff"      , "./INPUT/RUNOFF.nc"            , .true.  ,  1.0
+"ICE" , "lw_flux_dn"    , "rlds"        , "./INPUT/rlds.1996.30Jun2016.nc"     , .false. ,  1.0
+"ICE" , "sw_flux_vis_dir_dn", "rsds"    , "./INPUT/rsds.1996.30Jun2016.nc"     , .false. , 0.285
+"ICE" , "sw_flux_vis_dif_dn", "rsds"    , "./INPUT/rsds.1996.30Jun2016.nc"     , .false. , 0.285
+"ICE" , "sw_flux_nir_dir_dn", "rsds"    , "./INPUT/rsds.1996.30Jun2016.nc"     , .false. , 0.215
+"ICE" , "sw_flux_nir_dif_dn", "rsds"    , "./INPUT/rsds.1996.30Jun2016.nc"     , .false. , 0.215
+"ICE" , "lprec"         , "prrn"        , "./INPUT/rain.1996.15Dec2016.nc"     , .false. ,  0.9933
+"ICE" , "fprec"         , "prsn"        , "./INPUT/snow.1996.15Dec2016.nc"     , .false. ,  0.9933
+"ICE" , "runoff"        , "RUNOFF"      , "./INPUT/RUNOFF.nc"            , .true.  ,  1.0
 "ICE" , "calving"       , ""            , ""                             , .true.  ,  0.0
 "ICE" , "dhdt"          , ""            , ""                             , .true.  ,  80.0
 "ICE" , "dedt"          , ""            , ""                             , .true.  ,  2.0e-6
