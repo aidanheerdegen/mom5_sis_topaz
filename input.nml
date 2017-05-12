@@ -1,6 +1,6 @@
  &coupler_nml
-       months = 3,
-       days   = 0,
+       months = 0,
+       days   = 3,
        current_date = 1996,1,1,0,0,0,
        calendar = 'JULIAN',
        dt_cpld = 10800,
@@ -417,7 +417,7 @@
  &ocean_shortwave_gfdl_nml
        use_this_module=.true.
        debug_this_module=.false.
-       read_chl=.false.                ! true in CM2M
+       read_chl=.true.                ! true in CM2M
        zmax_pen=200.0
        enforce_sw_frac=.true.
        override_f_vis=.false.
