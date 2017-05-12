@@ -265,7 +265,7 @@
        barotropic_split = 80
        debug=.false.
        layout=6,4
-       dt_ocean=7200
+       dt_ocean=5400
 /
 
  &ocean_momentum_source_nml
